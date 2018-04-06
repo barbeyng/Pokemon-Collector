@@ -1,0 +1,59 @@
+body {
+    background: url("../images/pokeball.png") no-repeat center top;
+    background-size: cover;
+    font-family: 'Indie Flower';
+    font-size: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+#pikachu, #charmander, #squirtle, #bulbasaur {
+    display: inline;
+    margin: auto;
+    padding: 10px;
+}
+
+.title {
+    padding: 300px 0px 0px 0px;
+    font-size: 36px;
+}
+
+.mainBody {
+    padding: 30px 0px 0px 0px;
+    line-height: 1.5;
+}
+
+#randomNumber {
+    float: left;
+    background: #A53C34;
+    margin: auto;
+    width: 41%;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#tempScore {
+    float: left;
+    width: 41%;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#scoreBoard {
+    background: #FAF026;
+    clear: left;
+    width: 88%;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
